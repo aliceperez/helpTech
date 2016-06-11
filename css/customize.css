@@ -1,0 +1,162 @@
+.padding-left-less
+{
+	padding-left: 0px;
+}
+.padding-right-less
+{
+	padding-right: 0px;
+}
+.padding-right-plus
+{
+	padding-right: 10px;
+}
+.header
+{
+	padding:0; 
+	position: absolute;
+	background:#5bc8ff; 
+	color:#fff
+}
+.date
+{
+	font-weight:300; float:right
+}
+.title
+{
+	font-size:20px; font-weight:700;margin-bottom:-3px
+}
+.subtitle
+{
+	font-weight:300;
+}
+li
+{
+	list-style: none;
+}
+.ticket-code
+{
+	color: #0d99e0;
+}
+.target
+{
+	float: right;
+}
+
+.category
+{
+	color:#fff;
+	background: #5bc8ff;
+	margin: 3px;
+	padding: 5px 15px 5px 15px;
+	border-radius: 15px;
+	font-size: 12px;
+}
+.ticket-time
+{
+	color:#fff;
+	background: #ccc;
+	margin: 3px;
+	padding: 5px 15px 5px 15px;
+	border-radius: 15px;
+	font-size: 12px;
+}
+.description
+{
+	color:#8c8c8c;
+	font-size: 12px;
+}
+.title-panel-right
+{
+	color:#ccc;
+	letter-spacing: 0.2em;
+	font-size: 12px; 
+}
+.center
+{
+	margin:80px 10px 0px 10px;
+}
+.more-centered
+{
+	margin:80px 15px 0px 60px;
+}
+.less-centered
+{
+	margin:80px 10px 0px 5px;
+}
+.actions
+{
+	color:#000 !important;
+	font-size: 16px;
+	margin: 3px;
+}
+.button-1
+{
+	background:#0d99e0; border:none; border-radius:20px; color:#fff; margin-left: 10px; margin-top:20px; padding: 10px 20px;
+}
+.display-flex
+{
+	display: flex;
+}
+.no-padding
+{
+	padding: 0px;
+}
+.config-panel{
+	margin-right: 40px; padding:0px;
+}
+.no-margin-right
+{
+	margin-right: 0px;
+}
+.logo-location
+{
+	width:200px; height:35px; margin-top:-5px;
+}
+.page-wrapper-css
+{
+	
+}
+.container-fluid-css
+{
+	padding-right:0px; padding-left:10px;
+}
+.small-header
+{
+	padding-left:0px;padding-right:0px; height:100%;
+}
+.button-2
+{
+	background:#5bc8ff; border:none; border-radius:20px; color:#fff; padding:5px 15px;
+}
+.button-3
+{
+	background:#0d99e0; border:none; border-radius:20px; color:#fff; padding:5px 15px;
+}
+.user-table
+{
+	margin:20px 10px 0px 10px;background:#fff;
+}
+.button-4
+{
+	background:#0d99e0; border:none; border-radius:20px; color:#fff; padding:5px 15px;
+}
+.button-5
+{
+	background:#5bc8ff; border:none; border-radius:20px; color:#fff; padding:5px 15px; float:right;
+}
+.margin-right-30
+{
+	margin-right: 30px;
+}
+.base-p
+{
+	font-weight:700; margin-bottom:10px;
+}
+.no-padding-left
+{
+	padding-left: 0px;
+}
+.panel-default-css
+{
+	margin:100px 10px 0px 10px;
+}
