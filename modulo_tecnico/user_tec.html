@@ -12,18 +12,19 @@
     <title>HelpTech</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/sb-admin.css" rel="stylesheet">
-    <link href="css/customize.css" rel="stylesheet">
+    <link href="../css/sb-admin.css" rel="stylesheet">
+    <link href="../css/customize.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,500' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+
     <div id="wrapper" >
 
         <!-- Navigation -->
@@ -36,12 +37,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img class="logo-location" src="images/logo.png"></a>
+                <a class="navbar-brand" href="index.html"><img class="logo-location" src="../images/logo.png"></a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-img" src="images/alice.jpg"> Alice Perez <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-img" src="../images/alice.jpg"> Alice Perez <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
@@ -57,25 +58,20 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse no-margin-right">
                 <ul class="nav navbar-nav side-nav">
                     <li >
-                        <a href="index.html"><img class="menu-icon" src="images/home.png"> Pagina principal</a>
+                        <a href="index_tec.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
                     </li>
                     <li  class="active" >
-                        <a href="user.html"><img class="menu-icon" src="images/user.png"> Usuarios</a>
+                        <a href="user_tec.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
                     </li>
                     <li >
-                        <a href="history.html"><img class="menu-icon" src="images/history.png"> Historial de tickets</a>
-                    </li>
-                    <li >
-                        <a href="base.html"><img class="menu-icon" src="images/fqa.png"> Knowledge base</a>
-                    </li>
-                    <li>
-                        <a href="config.html"><img class="menu-icon" src="images/conf.png"> Configuraciones</a>
+                        <a href="history_tec.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
                     </li>
                 </ul>
 
             </div>
             <!-- /.navbar-collapse -->
         </nav>
+
 
         <div id="page-wrapper" style="padding-right:0px;position:relative; " >
 
@@ -93,7 +89,6 @@
                 <div class="panel panel-default center">
                   <div class="panel-body">
                       <a class="button-2" href="user_list.html" >Lista de usuarios</a>
-                      <a class="button-3" href="new_user.html" >Crear nuevo</a>
                   </div>
                 </div>
 
@@ -105,7 +100,6 @@
                           <td>Departamento</td>
                           <td>Fecha</td>
                           <td>Correo</td>
-                          <td>Accion</td>
                       </tr>
                       <tr class="pointer">
                           <td class="ticket-code">US-001</td>
@@ -113,7 +107,6 @@
                           <td>Contabilidad</td>
                           <td>05-29-2016 09:01</td>
                           <td>jmaria@gmail.com</td>
-                          <td><button type="button" class="button-4" data-toggle="modal" data-target="#asignar" >Asignar</button></td>
                       </tr>
                   </table>
                 </div>
@@ -126,39 +119,11 @@
     </div>
     <!-- /#wrapper -->
 
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="asignar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Asignar soporte</h4>
-          </div>
-          <form>
-          <div class="modal-body">
-            <div class="form-group">
-              <label>Nombres</label>
-              <select class="form-control">
-                <option>Jonatan Maria</option>
-                <option>Alice Perez</option>
-              </select>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="button-2" data-dismiss="modal">Cancelar</button>
-            <button type="button" class="button-3">Guardar</button>
-          </div>
-          </form>
-        </div>
-      </div>
-    </div>
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>

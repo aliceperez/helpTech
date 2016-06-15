@@ -10,6 +10,10 @@
 {
 	padding-right: 10px;
 }
+.padding-bottom-30
+{
+	padding-bottom: 30px;
+}
 .header
 {
 	padding:0; 
@@ -78,6 +82,10 @@ li
 .more-centered
 {
 	margin:80px 15px 0px 60px;
+}
+.more-centered-success
+{
+	margin:0px 15px 0px 60px;
 }
 .less-centered
 {
@@ -148,9 +156,13 @@ li
 {
 	margin-right: 30px;
 }
+.margin-right-70
+{
+	margin-right: 70px;
+}
 .base-p
 {
-	font-weight:700; margin-bottom:10px;
+	font-weight:700; margin-bottom:10px; font-size:20px; 
 }
 .no-padding-left
 {
@@ -159,4 +171,51 @@ li
 .panel-default-css
 {
 	margin:100px 10px 0px 10px;
+}
+.right
+{
+	float: right;
+}
+.top-20-bottom-20
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.margin-left-10
+{
+	margin-left: 10px;
+}
+.bold
+{
+	font-weight: 700;
+}
+.bold-big
+{
+	font-weight: 700;
+	font-size: 16px;
+}
+.regular
+{
+	font-weight: 400;
+}
+.no-margin-top
+{
+	margin-top: 0px;
+}
+.margin-top
+{
+	margin-top: 40px;
+}
+.pointer
+{
+	cursor: pointer;
+}
+.blue:hover
+{
+	color: #0d99e0;
+}
+.no-show
+{
+	display: none;
+	margin-bottom: -100px;
 }

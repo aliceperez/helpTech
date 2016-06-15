@@ -116,8 +116,8 @@
                           <tr>
                             <td>Hardware</td>
                             <td>
-                              <a class="actions" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                              <a class="actions" href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                              <a class="actions"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+                              <a class="actions" data-toggle="modal" data-target="#categoria"><i class="fa fa-trash-o" aria-hidden="true" ></i></a>
                             </td>
                           </tr>
                         </table>
@@ -150,8 +150,8 @@
                           <tr>
                             <td>Contabilidad</td>
                             <td>
-                              <a class="actions" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                              <a class="actions" href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                              <a class="actions"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+                              <a class="actions" data-toggle="modal" data-target="#departamento"><i class="fa fa-trash-o" aria-hidden="true" ></i></a>
                             </td>
                           </tr>
                         </table>
@@ -171,7 +171,42 @@
 
     </div>
     <!-- /#wrapper -->
-
+    <!-- Eliminar categoria -->
+    <div class="modal fade" id="categoria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Eliminar categoria</h4>
+          </div>
+          <div class="modal-body">
+            Esta seguro que desea eliminar esta categoria?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="button-2" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="button-3">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Eliminar Departamento -->
+    <div class="modal fade" id="departamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Eliminar departamento</h4>
+          </div>
+          <div class="modal-body">
+            Esta seguro que desea eliminar este departmento?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="button-2" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="button-3">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
