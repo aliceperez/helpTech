@@ -12,17 +12,14 @@
     <title>HelpTech</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
     <!-- Custom CSS -->
-    <link href="css/sb-admin.css" rel="stylesheet">
-    <link href="css/customize.css" rel="stylesheet">
-    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-    
+    <link href="../css/sb-admin.css" rel="stylesheet">
+    <link href="../css/customize.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,500' rel='stylesheet' type='text/css'>
 </head>
 
@@ -40,12 +37,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img class="logo-location" src="images/logo.png"></a>
+                <a class="navbar-brand" href="index.html"><img class="logo-location" src="../images/logo.png"></a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-img" src="images/alice.jpg"> Alice Perez <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-img" src="../images/alice.jpg"> Alice Perez <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
@@ -60,20 +57,17 @@
             <!-- Sidebar Menu Items  -->
             <div class="collapse navbar-collapse navbar-ex1-collapse no-margin-right">
                 <ul class="nav navbar-nav side-nav">
-                    <li >
-                        <a href="index.html"><img class="menu-icon" src="images/home.png"> Pagina principal</a>
+                    <li class="active">
+                        <a href="index_cl.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
                     </li>
                     <li >
-                        <a href="user.html"><img class="menu-icon" src="images/user.png"> Usuarios</a>
+                        <a href="ticket_cl.html"><img class="menu-icon" src="../images/ticket.png"> Abrir ticket</a>
                     </li>
                     <li >
-                        <a href="history.html"><img class="menu-icon" src="images/history.png"> Historial de tickets</a>
-                    </li>
-                    <li>
-                        <a href="base.html"><img class="menu-icon" src="images/fqa.png"> Knowledge base</a>
+                        <a href="user_cl.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
                     </li>
                     <li >
-                        <a href="config.html"><img class="menu-icon" src="images/conf.png"> Configuraciones</a>
+                        <a href="history_cl.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
                     </li>
                 </ul>
 
@@ -114,13 +108,13 @@
                       <p class="bold">Archivos Adjuntos</p>
                       <div class="panel panel-default">
                         <div class="panel-body">
-                          <a class="fancybox" href="fancybox/demo/1_b.jpg"><img src="fancybox/demo/1_s.jpg" alt="Imagen adjunta" /></a>
-                          <a class="fancybox" href="fancybox/demo/2_b.jpg"><img src="fancybox/demo/2_s.jpg" alt="Imagen adjunta" /></a>
+                          <a class="fancybox" id="example1" href="../fancybox/demo/1_b.jpg"><img src="../fancybox/demo/1_s.jpg" alt="" /></a>
+                          <a class="fancybox" href="../fancybox/demo/2_b.jpg"><img src="../fancybox/demo/2_s.jpg" alt="" /></a>
                         </div>
                       </div>
                     </div>
                     <div >
-                      <label>Comentario</label>
+                      <label>Solucion</label>
                       <textarea class="form-control" rows="5"></textarea>
                     </div>
                   </div>
@@ -141,23 +135,9 @@
                     <p class="bold">Tiempo de creacion:<span class="regular">06-11-2016 01:10pm</span></p>
                     <p class="bold">Categoria:<span class="regular" >Hadware</span></p>
                     <p class="bold">Estatus:<span class="regular" >Abierto</span></p>
-                    <div class="form-group form-inline">
-                      <label> Asignado a:</label>
-                      <select class="form-control">
-                        <option>Jonatan</option>
-                        <option>Alice</option>
-                      </select>
-                    </div>
 
-                    <div class="form-group form-inline">
-                      <label> Prioridad:</label>
-                      <select class="form-control">
-                        <option>Alta</option>
-                        <option>Normal</option>
-                        <option>Baja</option>
-                      </select>
-                    </div>
-                    <button class="button-2 right" type="submit"> Guardar</button>
+                    <p class="bold">Asignado a:<span class="regular" >Jonatan Maria</span></p>
+                    <p class="bold">Prioridad:<span class="regular" >Alta</span></p>
                     </div>
                   </div>
 
@@ -171,20 +151,19 @@
     </div>
     <!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
     <!-- Custom js -->
       <script>
         !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
       </script>
 
-    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="../fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="../fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="../fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="../fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="../fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $(".fancybox").fancybox();

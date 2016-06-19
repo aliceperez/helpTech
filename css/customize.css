@@ -172,6 +172,10 @@ li
 {
 	margin:100px 10px 0px 10px;
 }
+.panel-default-custom
+{
+	margin:10px 10px 0px 10px;
+}
 .right
 {
 	float: right;
@@ -238,4 +242,9 @@ li
 .modal-form
 {
 	padding: 15px 100px 15px 100px;
+}
+.search
+{
+	padding: 20px;
+	border-radius: 20px;
 }

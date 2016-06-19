@@ -17,7 +17,6 @@
     <!-- Custom CSS -->
     <link href="../css/sb-admin.css" rel="stylesheet">
     <link href="../css/customize.css" rel="stylesheet">
-    <link rel="stylesheet" href="../bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
 
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -58,14 +57,17 @@
             <!-- Sidebar Menu Items  -->
             <div class="collapse navbar-collapse navbar-ex1-collapse no-margin-right">
                 <ul class="nav navbar-nav side-nav">
-                    <li>
-                        <a href="index_tec.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
+                    <li class="active">
+                        <a href="index_cl.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
                     </li>
                     <li >
-                        <a href="user_tec.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                        <a href="ticket_cl.html"><img class="menu-icon" src="../images/ticket.png"> Abrir ticket</a>
                     </li>
-                    <li  class="active">
-                        <a href="history_tec.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
+                    <li >
+                        <a href="user_cl.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                    </li>
+                    <li >
+                        <a href="history_cl.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
                     </li>
                 </ul>
 
@@ -131,7 +133,7 @@
                           <td>Tiempo de resolucion</td>
                       </tr>
                       <tr class="pointer">
-                          <td class="ticket-code">HA-001</td>
+                          <td class="ticket-code"><a href="issues_cl.html">HA-001</a></td>
                           <td>Jonatan Maria</td>
                           <td>El mouse no funciona</td>
                           <td>Alta</td>

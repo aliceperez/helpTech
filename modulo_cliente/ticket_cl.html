@@ -12,17 +12,11 @@
     <title>HelpTech</title>
 
     <!-- Bootstrap Core CSS -->
-    <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="../css/sb-admin.css" rel="stylesheet">
     <link href="../css/customize.css" rel="stylesheet">
-    <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-    
-
-
 
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -63,14 +57,17 @@
             <!-- Sidebar Menu Items  -->
             <div class="collapse navbar-collapse navbar-ex1-collapse no-margin-right">
                 <ul class="nav navbar-nav side-nav">
-                    <li >
-                        <a href="index_tec.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
+                    <li class="active">
+                        <a href="index_cl.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
                     </li>
                     <li >
-                        <a href="user_tec.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                        <a href="ticket_cl.html"><img class="menu-icon" src="../images/ticket.png"> Abrir ticket</a>
                     </li>
                     <li >
-                        <a href="history_tec.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
+                        <a href="user_cl.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                    </li>
+                    <li >
+                        <a href="history_cl.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
                     </li>
                 </ul>
 
@@ -91,71 +88,34 @@
                 </div>
                 <!-- /.small header -->
                 <div class="center">
-                  <div class="panel panel-default col-md-7 margin-right-30 padding-bottom-30 ">
+                  <div class="panel panel-default col-md-12 margin-right-30 padding-bottom-30 ">
                     <div class="panel-body">
+                    <form>
                       <div class="row ">
-
-                          <h4 class="base-p">El mouse no funciona</h4>
+                          <div class="form-group">
+                            <label>Asunto</label>
+                            <input type="text" class="form-control" placeholder="ej:El mouse no funciona">
+                          </div>
                       </div>
-                      <div class="row">
-                        <h5 class="bold">Descripcion</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                      </div>
+                    </div>
+                    <div class="padding-bottom-30" >
+                      <label>Comentario</label>
+                      <textarea class="form-control" rows="5"></textarea>
                     </div>
                     <div>
                       <p class="bold">Archivos Adjuntos</p>
                       <div class="panel panel-default">
-                        <div class="panel-body">
-                          <a class="fancybox" id="example1" href="../fancybox/demo/1_b.jpg"><img src="../fancybox/demo/1_s.jpg" alt="" /></a>
-                          <a class="fancybox" href="../fancybox/demo/2_b.jpg"><img src="../fancybox/demo/2_s.jpg" alt="" /></a>
+                        <div class="panel-body" >
+                        <div style="margin:0 auto; width:50%; text-align:center" >
+                            <p>Adjunte algunas capturas de pantalla que ayuden a enteder mejor la incidencia</p>
+                            <button  class="button-3" type="submit">Buscar imagenes</button>
+                        </div>
+
                         </div>
                       </div>
                     </div>
-                    <div >
-                      <label>Comentario</label>
-                      <textarea class="form-control" rows="5"></textarea>
-                    </div>
-                  </div>
-                  <!-- Issues details -->
-
-                  <div class="panel panel-default col-md-4 no-padding ">
-                    <div class="panel-heading">
-                      <h3 class="panel-title">Nueva informacion</h3>
-                    </div>
-                    <div class="panel-body">
-                    <p class="bold-big">Usuario</p>
-                    <hr class="no-margin-top">
-                    <p class="bold">Nombre:<span class="regular">Alice Perez</span></p>
-                    <p class="bold">Departamento:<span class="regular" >Recursos Humanos</span></p>
-
-                    <p class="bold-big margin-top">Ticket</p>
-                    <hr class="no-margin-top">
-                    <p class="bold">Tiempo de creacion:<span class="regular">06-11-2016 01:10pm</span></p>
-                    <p class="bold">Categoria:<span class="regular" >Hadware</span></p>
-                    <p class="bold">Estatus:<span class="regular" >Abierto</span></p>
-                    <div class="form-group form-inline">
-                      <label> Asignado a:</label>
-                      <select class="form-control">
-                        <option>Jonatan</option>
-                        <option>Alice</option>
-                      </select>
-                    </div>
-
-                    <div class="form-group form-inline">
-                      <label> Prioridad:</label>
-                      <select class="form-control">
-                        <option>Alta</option>
-                        <option>Normal</option>
-                        <option>Baja</option>
-                      </select>
-                    </div>
-                    <button class="button-2 right" type="submit"> Guardar</button>
-                    </div>
+                    <button class="button-2 right" type="submit"> Enviar</button>
+                    </form>
                   </div>
 
                 </div>

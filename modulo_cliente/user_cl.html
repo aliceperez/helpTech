@@ -57,14 +57,17 @@
             <!-- Sidebar Menu Items  -->
             <div class="collapse navbar-collapse navbar-ex1-collapse no-margin-right">
                 <ul class="nav navbar-nav side-nav">
-                    <li >
-                        <a href="index_tec.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
-                    </li>
-                    <li  class="active" >
-                        <a href="user_tec.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                    <li class="active">
+                        <a href="index_cl.html"><img class="menu-icon" src="../images/home.png"> Pagina principal</a>
                     </li>
                     <li >
-                        <a href="history_tec.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
+                        <a href="ticket_cl.html"><img class="menu-icon" src="../images/ticket.png"> Abrir ticket</a>
+                    </li>
+                    <li >
+                        <a href="user_cl.html"><img class="menu-icon" src="../images/user.png"> Usuarios</a>
+                    </li>
+                    <li >
+                        <a href="history_cl.html"><img class="menu-icon" src="../images/history.png"> Historial de tickets</a>
                     </li>
                 </ul>
 
@@ -85,31 +88,43 @@
                     </div>
                 </div>
                 <!-- /.small header -->
-
-                <div class="panel panel-default center">
-                  <div class="panel-body">
-                      <a class="button-2" href="user_list_tec.html" >Lista de usuarios</a>
+                <div class="more-centered">
+                  <div class="panel panel-default col-md-12 margin-right-30">
+                    <div class="panel-body">
+                        <p class="base-p top-20-bottom-20">Datos del usuario</p>
+                        <form id="form_user">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Codigo de empleado</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label>Nombre</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label>Apellido</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Cedula</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label>Cargo</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label>Supervisor</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <button class="button-3 right" type="submit" id="save"> Guardar</button>
+                        </form>
+                    </div>
                   </div>
-                </div>
-
-                <div class="table-responsive" style="margin:20px 10px 0px 10px;background:#fff;">
-                  <table class="table ">
-                      <tr class="warning">
-                          <td>No.de solicitud</td>
-                          <td>Empleado</td>
-                          <td>Departamento</td>
-                          <td>Fecha</td>
-                          <td>Correo</td>
-                      </tr>
-                      <tr class="pointer">
-                          <td class="ticket-code blue"><a href="new_user_tec.html">US-001</a></td>
-                          <td>Jonatan Maria</td>
-                          <td>Contabilidad</td>
-                          <td>05-29-2016 09:01</td>
-                          <td>jmaria@gmail.com</td>
-                      </tr>
-                  </table>
-                </div>
             </div>
             <!-- /.container-fluid -->
 
