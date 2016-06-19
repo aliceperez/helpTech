@@ -45,7 +45,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-img" src="images/alice.jpg"> Alice Perez <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                            <a class="pointer" data-toggle="modal" data-target="#profile"><i class="fa fa-fw fa-user"></i> Perfil</a>
                         </li>
                         <li class="divider"></li>
                         <li>
@@ -98,8 +98,8 @@
                       </div>
                       <div class="panel-body no-padding-left">
                         <ul>
-                            <li class="pointer bk-grey">
-                                <div>
+                            <li class="pointer bk-grey" >
+                                <div id="issue">
                                     <p class="target"><span class="category">Hadware</span><span class="ticket-time">09-02-2016 09:23</span></p>
                                     <p><span class="ticket-code">HA-001</span> El mouse no funciona</p>
 
@@ -125,11 +125,57 @@
     </div>
     <!-- /#wrapper -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bk-yellow">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-header" id="myModalLabel">Mi perfil</h4>
+          </div>
+          <div class="modal-body text-center">
+            <img class="profile-img" src="images/alice.jpg">
+          </div>
+          <div class="text-center">
+            <button type="button" class="button-2" data-dismiss="modal">Cambiar foto</button>
+          </div>
+          <div  class="modal-form">
+              <form>
+                  <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Apellido</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Correo</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Confirmar contraseña</label>
+                    <input type="password" class="form-control">
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer text-center">
+            <button type="button" class="button-2" data-dismiss="modal">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>

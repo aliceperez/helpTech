@@ -85,7 +85,7 @@ li
 }
 .more-centered-success
 {
-	margin:0px 15px 0px 60px;
+	margin:30px 15px 0px 60px;
 }
 .less-centered
 {
@@ -214,8 +214,28 @@ li
 {
 	color: #0d99e0;
 }
-.no-show
+.text-center
 {
-	display: none;
-	margin-bottom: -100px;
+	text-align: center;
+}
+.bk-yellow
+{
+	background: #ffc400;
+}
+.text-header
+{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+.profile-img
+{
+	width: 200px;
+	height: 200px;
+	border: 10px solid #ccc;
+	border-radius: 50%;
+}
+.modal-form
+{
+	padding: 15px 100px 15px 100px;
 }

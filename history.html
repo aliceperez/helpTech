@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="css/customize.css" rel="stylesheet">
+      <link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -108,7 +109,17 @@
                               <option>Abierta</option>
                             </select>
                           </div>
-                          <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                          <div class="form-group" class="col-md-6" style="margin-left:10px;">
+                            <label>Desde</label>
+                            <input type='text' class="form-control" id='desde'>
+                          </div>
+
+                          <div class="form-group" class="col-md-6" style="margin-left:10px;">
+                            <label>Hasta</label>
+                            <input type='text' class="form-control" id='hasta'>
+                          </div>
+
+                          <button type="submit" class="button-1" style="margin-left:10px;">Buscar</button>
                         </form>
                     </div>
                   </div>
@@ -144,10 +155,23 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
+        <script >
+          $(document).ready(function()
+            {
+              $('#desde').datetimepicker({
+                    format: 'MM/DD/YYYY',
+                });
+              $('#hasta').datetimepicker({
+                    format: 'MM/DD/YYYY'
+                });
+            });
+        </script>
 </body>
 
 </html>
