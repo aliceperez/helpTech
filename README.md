@@ -34,6 +34,6 @@ NOTA: los modulo usan el mismo estilo y siento que eso no deberia ser asi, no se
 
 ## Estilo
 
-Tipografia: ROBOTO (Regular,bold)
-Colores: No creo que la necesites pero por ahi esta la paleta
+* Tipografia: ROBOTO (Regular,bold)
+* Colores: No creo que la necesites pero por ahi esta la paleta
 
