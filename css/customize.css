@@ -97,6 +97,11 @@ li
 	font-size: 16px;
 	margin: 3px;
 }
+.button-0
+{
+  background: #5bc8ff;
+; border:none; border-radius:5px; color:#fff; margin-left: 10px; margin-top:20px; padding: 10px 10px; width: 200px;
+}
 .button-1
 {
 	background:#0d99e0; border:none; border-radius:20px; color:#fff; margin-left: 10px; margin-top:20px; padding: 10px 20px;
