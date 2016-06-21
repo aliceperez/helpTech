@@ -14,12 +14,12 @@ utiliza para visualizar lasimagenes adjuntas.
 
 font-awesome: son los iconos como fuentes que se utilizan en la aplicacion.
 
-font: son los iconos como fuentes de boostrap (no estoy segura de si esto sea necesario).
+font: son los iconos como fuentes de bootstrap (no estoy segura de si esto sea necesario).
 
 imagenes: Aparte de almacenar todas las imagenes del proyecto tambien guarda los iconos del sidebar(no son iconos como fuentes son png :( ).
 
 js: Contiene todos los archivos javaScript del proyecto
-* boostrap.js: archivo js que trae boostrap.
+* boostrap.js: archivo js que trae bootstrap.
 * jquery.js : es la libreria jquery y la unica que se utiliza en todo el proyecto si aparece otro archivo similar
 por ahi es porque una de las librerias lo trajo y no es necesario.
 * index.js: ESTE ARCHIVO ESTA VACIO CON MOTIVO AL BOCHE QUE ME ECHARON EL 15 DE JUNIO DEL 2016. SE QUEDARA VACIO EN NOMBRE DE LOS CAIDOS
